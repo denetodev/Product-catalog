@@ -59,7 +59,7 @@ mvn spring-boot:run
 ```
 A aplicação estará disponível em: http://localhost:8080
 
-# 📬 Testando com Postman
+## 📬 Testando com Postman
 Uma coleção do Postman foi exportada e está disponível no repositório como Product Catalog API.postman_collection.json. Siga os passos abaixo para utilizá-la:
 
 Abra o Postman.
@@ -69,7 +69,7 @@ Abra o Postman.
 4. Valor padrão: http://localhost:8080 (ou a URL do deploy, quando disponível).
 5. Execute as requisições da coleção para testar todas as funcionalidades.
 
-# 🏗️ Estrutura do Projeto
+## 🏗️ Estrutura do Projeto
 O projeto segue a arquitetura em camadas padrão do Spring Boot:
 
 - Controller: Camada de entrada que gerencia as requisições HTTP.
@@ -93,20 +93,20 @@ src/main/java/com/example/productcatalog
 ├── model
 │   └── Product.java
 ```
-# 🌐 Deploy em Produção
+## 🌐 Deploy em Produção
 A API foi implantada em [Render/Railway] e estará disponível em:
 
 🔗  (em breve, após conclusão do deploy)
 
-# 📸 Demonstração
+## 📸 Demonstração
 (Adicione capturas de tela ou GIFs dos testes no Postman aqui após gerá-los)
 
-# 📌 Próximos Passos
+## 📌 Próximos Passos
 Adicionar autenticação com Spring Security.
 
 Implementar paginação na listagem de produtos.
 
 Criar testes unitários com JUnit e Mockito.
 
-# 👤 Desenvolvido por
+## 👤 Desenvolvido por
 [SEU_NOME] 📧 [SEU_EMAIL] | [SEU_LINKEDIN]
